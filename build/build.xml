@@ -532,7 +532,7 @@ examples:
           <attribute name='Implementation-Title'
                      value='Runtime without utilities and servers'/>
           <attribute name='Implementation-Version' value='${build.label}'/>
-          <attribute name='Sealed' value='true'/>
+          <attribute name='Sealed' value='false'/>
         </manifest>
         <fileset refid='minclasses' />
         <fileset refid='modinfoclass'/>
@@ -551,7 +551,7 @@ examples:
           <attribute name='Implementation-Title'
                      value='Runtime without utilities'/>
           <attribute name='Implementation-Version' value='${build.label}'/>
-          <attribute name='Sealed' value='true'/>
+          <attribute name='Sealed' value='false'/>
         </manifest>
         <fileset refid='minclasses' />
         <fileset refid='mainaddedclasses' />
@@ -576,7 +576,7 @@ examples:
           <attribute name='Implementation-Title'
                      value='Standard runtime'/>
           <attribute name='Implementation-Version' value='${build.label}'/>
-          <attribute name='Sealed' value='true'/>
+          <attribute name='Sealed' value='false'/>
         </manifest>
         <fileset refid='minclasses' />
         <fileset refid='mainaddedclasses' />
@@ -618,7 +618,7 @@ ${err.1}</fail>
           <attribute name='Main-Class' value='org.hsqldb.util.DatabaseManagerSwing'/>
           <attribute name='Class-Path'
                      value='hsqldb-${hsqldb.version}.jar hsqldb.jar hsqldbmin.jar hsqldbmain.jar'/>
-          <attribute name='Sealed' value='true'/>
+          <attribute name='Sealed' value='false'/>
         </manifest>
         <fileset refid='dbmanagerswingclasses'/>
       </jar>
@@ -659,7 +659,7 @@ ${err.1}</fail>
           <attribute name='Implementation-Version' value='${build.label}'/>
           <attribute name='Class-Path'
               value='hsqldb-${hsqldb.version}.jar hsqldb.jar hsqldbmin.jar hsqldbmain.jar'/>
-          <attribute name='Sealed' value='true'/>
+          <attribute name='Sealed' value='false'/>
         </manifest>
         <fileset refid='sqltoolclasses'/>
         <fileset refid='sqltoolres'/>
@@ -721,7 +721,7 @@ ${err.2}</fail>
           <attribute name='Specification-Vendor' value='${hsqldb.vendor}'/>
           <attribute name='Implementation-Title' value='HSQLDB Java Source Preprocessor Library'/>
           <attribute name='Implementation-Version' value='${build.label}'/>
-          <attribute name='Sealed' value='true'/>
+          <attribute name='Sealed' value='false'/>
         </manifest>
         <fileset refid='preprocessorclasses' />
       </jar>
@@ -741,7 +741,7 @@ ${err.2}</fail>
           <attribute name='Main-Class' value='org.hsqldb.util.DatabaseManagerSwing'/>
           <attribute name='Class-Path'
           value='hsqldb-${hsqldb.version}.jar hsqldb.jar hsqldbmin.jar hsqldbmain.jar'/>
-          <attribute name='Sealed' value='true'/>
+          <attribute name='Sealed' value='false'/>
         </manifest>
         <fileset refid='utilclasses'/>
       </jar>
